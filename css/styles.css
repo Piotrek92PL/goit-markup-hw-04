@@ -159,7 +159,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(images/background.png);
+  background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png);
 }
 .features-set {
   display: flex;
@@ -257,12 +257,15 @@ p {
   padding-bottom: 60px;
 }
 .box1 {
-  background-image: url(images/background.png);
-  background-color: #2f303a;
+  background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png);
+  /* background-color: #2f303a; 
   height: 600px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+}
+.background {
+  background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png);
 }
 .box2 {
   background-color: #f5f4fa;
