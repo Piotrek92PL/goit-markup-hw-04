@@ -257,16 +257,27 @@ p {
   padding-bottom: 60px;
 }
 .box1 {
-  background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png);
-  /* background-color: #2f303a; 
-  height: 600px;
+  /*background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png); */
+  background-color: #2f303a;
+
   display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
 }
+
+/*
 .background {
-  background-image: url(https://github.com/Piotrek92PL/goit-markup-hw-04/blob/main/images/background.png);
+  background-image: url(../images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  padding: 0;
 }
+*/
 .box2 {
   background-color: #f5f4fa;
   height: 648px;
@@ -340,4 +351,7 @@ p {
 }
 .figure-portfolio > img {
   vertical-align: top;
+}
+.icon {
+  fill: #ffffff;
 }
