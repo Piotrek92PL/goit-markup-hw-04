@@ -353,5 +353,9 @@ p {
   vertical-align: top;
 }
 .icon {
-  fill: #ffffff;
+  fill: red;
+}
+.menu-icons {
+  padding-right: 10px;
+  display: inline;
 }
