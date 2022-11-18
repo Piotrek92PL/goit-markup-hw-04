@@ -352,10 +352,18 @@ p {
 .figure-portfolio > img {
   vertical-align: top;
 }
-.icon {
-  fill: red;
+.contact-icon {
+  fill: #757575;
+  margin-right: 10px;
 }
-.menu-icons {
-  padding-right: 10px;
-  display: inline;
+
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: #2196f3;
 }
+
+.level {
+  display: flexbox;
+  flex-wrap: no-wrap;
+}
+/* href="./images/icons.svg#icon-smartphone"; */
